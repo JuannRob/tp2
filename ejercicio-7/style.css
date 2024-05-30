@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+#listaUsuarios li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.btnVerTareas {
+  padding: 0.4rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #ff5900;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contenedorTareas {
+  display: flex;
+  flex-direction: column;
+}
+
+#contenedorTareas span {
+  font-size: 1.3rem;
+  margin: 0.4rem 0;
+}
+
+#btnMostrarUsuarios {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #00a6ff;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+}
